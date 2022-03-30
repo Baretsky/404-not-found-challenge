@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: './assets/fonts/SpaceMono-Regular.ttf', monospace;
+    color: #333333;
+}
+
+span{
+        font-weight: 700;
+}
+
+img{
+    width: 540px;
+    height: 100%;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 77px;
+    padding-top: 40px;
+
+
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 200px;
+}
+
+.main-content{
+    margin-left: 120px;
+}
+
+.main-text{
+    font-family: 'Space Mono', monospace;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.info{
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 36px;
+    padding-bottom: 64px;
+}
+
+button{
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 24px;
+    width: 100%;
+    text-align: center;
+
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 800px){
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    img{
+    width: 287px;
+    height: 100%;
+    align-self: center;
+    padding-top: 64px;
+    padding-bottom: 60px;
+    }
+
+    .header-logo{
+        padding-left: 24px;
+        padding-top: 20px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 20%;
+    }
+
+    .main-text{
+        font-size: 48px;
+        position: relative;
+        left: -96px;
+    }
+
+    .info{
+        font-size : 18px;
+        position: relative;
+        left: -96px;
+    }
+
+    button{
+        position: relative;
+        left: -96px;
+    }
+
+
+}
